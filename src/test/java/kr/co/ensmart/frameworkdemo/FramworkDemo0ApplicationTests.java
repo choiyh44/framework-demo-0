@@ -1,4 +1,4 @@
-package kr.co.ensmart.framworkdemo;
+package kr.co.ensmart.frameworkdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
