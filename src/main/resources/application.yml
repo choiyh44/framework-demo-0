@@ -1,7 +1,8 @@
 app:
   name: test 0
 server:
-   shutdown: graceful
+  port: 8081
+  shutdown: graceful
 spring:
   lifecycle:
     timeout-per-shutdown-phase: 10m
@@ -14,4 +15,3 @@ spring:
       shutdown:
         await-termination: true
         await-termination-period: 10m
-  
